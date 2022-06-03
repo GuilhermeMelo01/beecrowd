@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="FibonnaciEz">
-      <change afterPath="$PROJECT_DIR$/src/FatorialSimples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Idades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SequenciaS.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="3 exercicios">
+      <change afterPath="$PROJECT_DIR$/src/Divisores1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SequenciaS2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SequenciaS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SequenciaS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +40,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SequenciaS">
-    <configuration name="FatorialSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FatorialSimples" />
+  <component name="RunManager" selected="Application.Divisores1">
+    <configuration name="Divisores1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Divisores1" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciEz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciEz" />
+    <configuration name="FatorialSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FatorialSimples" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,13 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenciaIJ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SequenciaIJ4" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SequenciaS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SequenciaS" />
       <module name="beecrowd" />
@@ -82,13 +76,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SequenciaS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SequenciaS2" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Divisores1" />
+        <item itemvalue="Application.SequenciaS2" />
         <item itemvalue="Application.SequenciaS" />
         <item itemvalue="Application.Idades" />
         <item itemvalue="Application.FatorialSimples" />
-        <item itemvalue="Application.FibonacciEz" />
-        <item itemvalue="Application.SequenciaIJ4" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654037585237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3 exercicios">
+      <created>1654124641603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654124641603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FibonnaciEz" />
-    <option name="LAST_COMMIT_MESSAGE" value="FibonnaciEz" />
+    <MESSAGE value="3 exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 exercicios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
