@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="2 exercicio (SomaImparesConsecutivos3, SomaParesConsecutivos)">
-      <change afterPath="$PROJECT_DIR$/src/CrescimentoPopulacional.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="1 exercicio (CrescimentoPopulacional)">
+      <change afterPath="$PROJECT_DIR$/src/NumeroPerfeito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumeroPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SubstituicaoVetor1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrescimentoPopulacional">
+  <component name="RunManager" selected="Application.SubstituicaoVetor1">
     <configuration name="CrescimentoPopulacional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CrescimentoPopulacional" />
       <module name="beecrowd" />
@@ -53,22 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Divisores1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Divisores1" />
+    <configuration name="NumeroPerfeito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumeroPerfeito" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenciaS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SequenciaS2" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomaImparesConsecutivos3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SomaImparesConsecutivos3" />
+    <configuration name="NumeroPrimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumeroPrimo" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,13 +76,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubstituicaoVetor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubstituicaoVetor1" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubstituicaoVetor1" />
+        <item itemvalue="Application.NumeroPrimo" />
+        <item itemvalue="Application.NumeroPerfeito" />
         <item itemvalue="Application.CrescimentoPopulacional" />
         <item itemvalue="Application.SomaParesConsecutivos" />
-        <item itemvalue="Application.SomaImparesConsecutivos3" />
-        <item itemvalue="Application.Divisores1" />
-        <item itemvalue="Application.SequenciaS2" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654891024871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1 exercicio (CrescimentoPopulacional)">
+      <created>1654893516248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654893516249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +156,8 @@
     <MESSAGE value="3 exercicios" />
     <MESSAGE value="3 exercicio" />
     <MESSAGE value="2 exercicio (SomaImparesConsecutivos3, SomaParesConsecutivos)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 exercicio (SomaImparesConsecutivos3, SomaParesConsecutivos)" />
+    <MESSAGE value="1 exercicio (CrescimentoPopulacional)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 exercicio (CrescimentoPopulacional)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
