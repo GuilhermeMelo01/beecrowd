@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="1 exercicio (CrescimentoPopulacional)">
-      <change afterPath="$PROJECT_DIR$/src/NumeroPerfeito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumeroPrimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubstituicaoVetor1.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="3 exercicio">
+      <change afterPath="$PROJECT_DIR$/src/SomaImparesConsecutivos3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SomaParesConsecutivos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divisores1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divisores1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +47,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubstituicaoVetor1">
-    <configuration name="CrescimentoPopulacional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrescimentoPopulacional" />
+  <component name="RunManager" selected="Application.SomaParesConsecutivos">
+    <configuration name="Divisores1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Divisores1" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumeroPerfeito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumeroPerfeito" />
+    <configuration name="SequenciaS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SequenciaS" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumeroPrimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumeroPrimo" />
+    <configuration name="SequenciaS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SequenciaS2" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomaImparesConsecutivos3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SomaImparesConsecutivos3" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,20 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstituicaoVetor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubstituicaoVetor1" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubstituicaoVetor1" />
-        <item itemvalue="Application.NumeroPrimo" />
-        <item itemvalue="Application.NumeroPerfeito" />
-        <item itemvalue="Application.CrescimentoPopulacional" />
         <item itemvalue="Application.SomaParesConsecutivos" />
+        <item itemvalue="Application.SomaImparesConsecutivos3" />
+        <item itemvalue="Application.Divisores1" />
+        <item itemvalue="Application.SequenciaS2" />
+        <item itemvalue="Application.SequenciaS" />
       </list>
     </recent_temporary>
   </component>
@@ -123,21 +123,7 @@
       <option name="project" value="LOCAL" />
       <updated>1654217033256</updated>
     </task>
-    <task id="LOCAL-00004" summary="2 exercicio (SomaImparesConsecutivos3, SomaParesConsecutivos)">
-      <created>1654891024871</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654891024871</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1 exercicio (CrescimentoPopulacional)">
-      <created>1654893516248</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654893516249</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,9 +141,7 @@
     <MESSAGE value="FibonnaciEz" />
     <MESSAGE value="3 exercicios" />
     <MESSAGE value="3 exercicio" />
-    <MESSAGE value="2 exercicio (SomaImparesConsecutivos3, SomaParesConsecutivos)" />
-    <MESSAGE value="1 exercicio (CrescimentoPopulacional)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 exercicio (CrescimentoPopulacional)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 exercicio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,10 +191,6 @@
           <line>19</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.InputMismatchException" package="java.util" />
-          <option name="timeStamp" value="21" />
-        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
