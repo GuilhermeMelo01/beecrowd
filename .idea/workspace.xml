@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="3 exercicio (PreenchimentoVetor1, SelecaoEmVetor1, TrocaEmVetor1)">
-      <change afterPath="$PROJECT_DIR$/src/FubonacciEmVetor.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="1 exercicio (FibonacciEmVetor)">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PreenchimentoEmVetor2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FubonacciEmVetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FubonacciEmVetor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreenchimentoVetor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PreenchimentoEmVetor1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +42,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FubonacciEmVetor">
+  <component name="RunManager" selected="Application.PreenchimentoEmVetor2">
     <configuration name="FubonacciEmVetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FubonacciEmVetor" />
       <module name="beecrowd" />
@@ -53,8 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreenchimentoVetor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PreenchimentoVetor1" />
+    <configuration name="PreenchimentoEmVetor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PreenchimentoEmVetor1" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreenchimentoEmVetor2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PreenchimentoEmVetor2" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,13 +75,6 @@
     </configuration>
     <configuration name="SelecaoEmVetor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SelecaoEmVetor1" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomaParesConsecutivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SomaParesConsecutivos" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreenchimentoEmVetor2" />
         <item itemvalue="Application.FubonacciEmVetor" />
         <item itemvalue="Application.TrocaEmVetor1" />
         <item itemvalue="Application.SelecaoEmVetor1" />
-        <item itemvalue="Application.PreenchimentoVetor1" />
-        <item itemvalue="Application.SomaParesConsecutivos" />
+        <item itemvalue="Application.PreenchimentoEmVetor1" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654996351849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1 exercicio (FibonacciEmVetor)">
+      <created>1655413410124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655413410124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +168,8 @@
     <MESSAGE value="3 exercicio" />
     <MESSAGE value="3 exercicio (NumeroPerfeito, SubstituicaoVetor1, NumeroPrimo)" />
     <MESSAGE value="3 exercicio (PreenchimentoVetor1, SelecaoEmVetor1, TrocaEmVetor1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 exercicio (PreenchimentoVetor1, SelecaoEmVetor1, TrocaEmVetor1)" />
+    <MESSAGE value="1 exercicio (FibonacciEmVetor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 exercicio (FibonacciEmVetor)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,7 +4,7 @@ public class FubonacciEmVetor {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        long t, n, nextNumber, previousNumber, sum, ultimo=0;
+        long t, n, nextNumber, previousNumber, sum;
 
         t = in.nextLong();
 

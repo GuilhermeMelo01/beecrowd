@@ -12,7 +12,7 @@ import java.util.Scanner;
 //        na posição i. O primeiro número do vetor N (N[0]) irá receber o valor de V.
 
 
-public class PreenchimentoVetor1 {
+public class PreenchimentoEmVetor1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
