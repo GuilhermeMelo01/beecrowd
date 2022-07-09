@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="2 exercicio (ColumnInArray, LineInArray)">
-      <change afterPath="$PROJECT_DIR$/src/AboveTheMainDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BelowTheMainDiagonal.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)">
+      <change afterPath="$PROJECT_DIR$/src/AboveTheSecundaryDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BelowTheSecundaryDiagonal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AboveTheMainDiagonal">
+  <component name="RunManager" selected="Application.BelowTheSecundaryDiagonal">
     <configuration name="AboveTheMainDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AboveTheMainDiagonal" />
       <module name="beecrowd" />
@@ -69,15 +69,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayFill3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayFill3" />
+    <configuration name="AboveTheSecundaryDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AboveTheSecundaryDiagonal" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayFill4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayFill4" />
+    <configuration name="BelowTheSecundaryDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BelowTheSecundaryDiagonal" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BelowTheSecundaryDiagonal" />
+        <item itemvalue="Application.AboveTheSecundaryDiagonal" />
         <item itemvalue="Application.AboveTheMainDiagonal" />
         <item itemvalue="Application.LineInArray" />
         <item itemvalue="Application.LowestNumberAndPosition" />
-        <item itemvalue="Application.ArrayFill4" />
-        <item itemvalue="Application.ArrayFill3" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657376855917</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)">
+      <created>1657388538420</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657388538420</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +210,8 @@
     <MESSAGE value="1 exercicio (PreenchimentoEmVetor2)" />
     <MESSAGE value="1 exercicio (ArrayFill3)" />
     <MESSAGE value="2 exercicio (ColumnInArray, LineInArray)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 exercicio (ColumnInArray, LineInArray)" />
+    <MESSAGE value="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
