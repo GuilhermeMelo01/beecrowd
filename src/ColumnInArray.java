@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class LineInArray {
+public class ColumnInArray {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner in = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class LineInArray {
             for (int j = 0; j < matriz.length; j++) {
                 value = in.nextDouble();
                 matriz[i][j] = value;
-                if (i == n) {
+                if (j == n) {
                     sum += matriz[i][j];
                 }
             }
