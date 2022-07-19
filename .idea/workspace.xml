@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)">
-      <change afterPath="$PROJECT_DIR$/src/AboveTheSecundaryDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BelowTheSecundaryDiagonal.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)">
+      <change afterPath="$PROJECT_DIR$/src/EleicoesPrefeito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InferiorArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TopArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,21 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BelowTheSecundaryDiagonal">
-    <configuration name="AboveTheMainDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AboveTheMainDiagonal" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AboveTheSecundaryDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AboveTheSecundaryDiagonal" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EleicoesPrefeito">
     <configuration name="BelowTheSecundaryDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BelowTheSecundaryDiagonal" />
       <module name="beecrowd" />
@@ -83,15 +70,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LineInArray" />
+    <configuration name="EleicoesPrefeito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EleicoesPrefeito" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestNumberAndPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LowestNumberAndPosition" />
+    <configuration name="InferiorArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InferiorArea" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopArea" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrueOrFalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrueOrFalse" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EleicoesPrefeito" />
+        <item itemvalue="Application.TrueOrFalse" />
+        <item itemvalue="Application.InferiorArea" />
+        <item itemvalue="Application.TopArea" />
         <item itemvalue="Application.BelowTheSecundaryDiagonal" />
-        <item itemvalue="Application.AboveTheSecundaryDiagonal" />
-        <item itemvalue="Application.AboveTheMainDiagonal" />
-        <item itemvalue="Application.LineInArray" />
-        <item itemvalue="Application.LowestNumberAndPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657388538420</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)">
+      <created>1657389982469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657389982469</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +219,8 @@
     <MESSAGE value="1 exercicio (ArrayFill3)" />
     <MESSAGE value="2 exercicio (ColumnInArray, LineInArray)" />
     <MESSAGE value="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)" />
+    <MESSAGE value="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +269,11 @@
           <url>file://$PROJECT_DIR$/src/SequenciaLogica2.java</url>
           <line>19</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EleicoesPrefeito.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
