@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)">
-      <change afterPath="$PROJECT_DIR$/src/EleicoesPrefeito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InferiorArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TopArea.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="3 exercicio (EleicoesPrefeito, InferiorArea, TopArea&#10;)">
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,14 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EleicoesPrefeito">
-    <configuration name="BelowTheSecundaryDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BelowTheSecundaryDiagonal" />
-      <module name="beecrowd" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrimoFuncao">
     <configuration name="EleicoesPrefeito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EleicoesPrefeito" />
       <module name="beecrowd" />
@@ -84,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopArea" />
+    <configuration name="PrimoFuncao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimoFuncao" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="beecrowd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimoFuncao" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.EleicoesPrefeito" />
         <item itemvalue="Application.TrueOrFalse" />
         <item itemvalue="Application.InferiorArea" />
-        <item itemvalue="Application.TopArea" />
-        <item itemvalue="Application.BelowTheSecundaryDiagonal" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657389982469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="3 exercicio (EleicoesPrefeito, InferiorArea, TopArea&#10;)">
+      <created>1658189333953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658189333953</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +225,8 @@
     <MESSAGE value="2 exercicio (ColumnInArray, LineInArray)" />
     <MESSAGE value="2 exercicio (AboveTheMainDiagonal, BelowTheMainDiagonal)" />
     <MESSAGE value="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)" />
+    <MESSAGE value="3 exercicio (EleicoesPrefeito, InferiorArea, TopArea&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 exercicio (EleicoesPrefeito, InferiorArea, TopArea&#10;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -269,11 +275,6 @@
           <url>file://$PROJECT_DIR$/src/SequenciaLogica2.java</url>
           <line>19</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EleicoesPrefeito.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
