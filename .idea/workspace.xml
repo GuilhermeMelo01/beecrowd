@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="1 exercicio (PrimoFuncao)">
-      <change afterPath="$PROJECT_DIR$/src/ArrayLestCode.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="1 exercicio (ArrayLestCode)">
+      <change afterPath="$PROJECT_DIR$/src/NotGive5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SquareMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayLestCode">
+  <component name="RunManager" selected="Application.NotGive5">
     <configuration name="ArrayLestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayLestCode" />
       <module name="beecrowd" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EleicoesPrefeito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EleicoesPrefeito" />
+    <configuration name="NotGive5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotGive5" />
       <module name="beecrowd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotGive5" />
         <item itemvalue="Application.ArrayLestCode" />
         <item itemvalue="Application.SquareMatrix" />
         <item itemvalue="Application.PrimoFuncao" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.EleicoesPrefeito" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658275228289</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1 exercicio (ArrayLestCode)">
+      <created>1658606256356</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658606256357</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +242,8 @@
     <MESSAGE value="2 exercicio (AboveTheSecundaryDiagonal, BelowTheSecundaryDiagonal)" />
     <MESSAGE value="3 exercicio (EleicoesPrefeito, InferiorArea, TopArea&#10;)" />
     <MESSAGE value="1 exercicio (PrimoFuncao)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 exercicio (PrimoFuncao)" />
+    <MESSAGE value="1 exercicio (ArrayLestCode)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 exercicio (ArrayLestCode)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
