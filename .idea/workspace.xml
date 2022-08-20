@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios plus">
-      <change afterPath="$PROJECT_DIR$/src/beecrowd/USTM_ProvaVetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/InsertionInto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/TestOrdenacao.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios de ordenacao">
+      <change afterPath="$PROJECT_DIR$/src/beecrowd/ComparacaoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LinkedListPalidrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/PalindromeNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/SplitArrayConsecutiveSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/RandomString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/StringAleatoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ordenacao/OrdenacaoVetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ordenacao/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +76,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="InsertionInto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ordenacao.InsertionInto" />
+  <component name="RunManager" selected="Application.DequeTest">
+    <configuration name="DequeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.DequeTest" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ordenacao.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ordenacao.QuickSort" />
+    <configuration name="LinkedListPalidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LinkedListPalidrome" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ordenacao.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ordenacao.SelectionSort" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestCommonPrefix" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ordenacao.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrdenacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ordenacao.TestOrdenacao" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Solution" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ordenacao.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="USTM_ProvaVetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.USTM_ProvaVetor" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidParentheses" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beecrowd.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.USTM_ProvaVetor" />
-        <item itemvalue="Application.TestOrdenacao" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionInto" />
+        <item itemvalue="Application.DequeTest" />
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.LinkedListPalidrome" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660685991833</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Exercicios de ordenacao">
+      <created>1660921576567</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660921576567</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +351,8 @@
     <MESSAGE value="3 exercicio (StringEndsWith,TotalAmountPoints, WhoLikesIt)" />
     <MESSAGE value="3 exercicio (PlayingWIthDigits,SumMixedArray, HumanReadableTime(I))" />
     <MESSAGE value="Exercicios plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios plus" />
+    <MESSAGE value="Exercicios de ordenacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios de ordenacao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +401,33 @@
           <url>file://$PROJECT_DIR$/src/beecrowd/SequenciaLogica2.java</url>
           <line>19</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
+          <line>9</line>
+          <properties class="leetcode.ValidParentheses" method="isValid">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
+          <line>25</line>
+          <properties class="leetcode.ValidParentheses" method="isOpeningBracket">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
+          <line>29</line>
+          <properties class="leetcode.ValidParentheses" method="isMatching">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
