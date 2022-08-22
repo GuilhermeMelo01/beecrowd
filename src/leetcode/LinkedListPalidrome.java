@@ -1,34 +1,18 @@
 package leetcode;
 
 
+import leetcode.listnode.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
-//  Definition for singly-linked list.
-class ListLinkedNode {
-    int val;
-    ListLinkedNode next;
-
-    ListLinkedNode() {
-    }
-
-    ListLinkedNode(int val) {
-        this.val = val;
-    }
-
-    ListLinkedNode(int val, ListLinkedNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 public class LinkedListPalidrome {
-    public static boolean isPalindrome(ListLinkedNode head) {
+    public static boolean isPalindrome(ListNode head) {
         //1 PASSO: Guarda todos valores da listaLigada no ArrayList
         List<Integer> digitos = new ArrayList<>();
         while(head != null){
-            digitos.add(head.val);
-            head = head.next;
+            digitos.add(head.getVal());
+            head = head.getNext();
         }
 
         //2 PASSSO: Verificar se eles são Palidrome
@@ -41,10 +25,10 @@ public class LinkedListPalidrome {
     }
 
     public static void main(String[] args) {
-        isPalindrome(new ListLinkedNode(1,
-                new ListLinkedNode(3,
-                new ListLinkedNode(3,
-                new ListLinkedNode(1,
-                        new ListLinkedNode(4))))));
+        isPalindrome(new ListNode(1,
+                new ListNode(3,
+                new ListNode(3,
+                new ListNode(1,
+                        new ListNode(4))))));
     }
 }

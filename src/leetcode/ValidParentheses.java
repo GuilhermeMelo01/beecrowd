@@ -20,7 +20,7 @@ public class ValidParentheses {
                 }
             }
         }
-        return true;
+        return stack.isEmpty();
     }
 
     private static boolean isOpeningBracket(char c) {
@@ -32,6 +32,6 @@ public class ValidParentheses {
     }
 
     public static void main(String[] args) {
-        System.out.println(isValid("{([[]])}"));
+        System.out.println(isValid("{([])}"));
     }
 }

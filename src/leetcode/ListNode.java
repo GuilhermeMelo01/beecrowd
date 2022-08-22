@@ -1,38 +1,30 @@
 package leetcode;
 
-
-//Definition for singly-linked list
-public class    ListNode {
-    int val;
-    ListLinkedNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListLinkedNode next) { this.val = val; this.next = next; }
-}
+import leetcode.listnode.ListNode;
 
 class Solution {
     // Add Two Numbers (Java improved)
-    public static ListLinkedNode addTwoNumbers(ListLinkedNode l1, ListLinkedNode l2) {
-        ListLinkedNode dummyHead = new ListLinkedNode(0);
-        ListLinkedNode curr = dummyHead;
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode curr = dummyHead;
         int carry = 0;
         while (l1 != null || l2 != null || carry != 0) {
-            int x = (l1 != null) ? l1.val : 0;
-            int y = (l2 != null) ? l2.val : 0;
+            int x = (l1 != null) ? l1.getVal() : 0;
+            int y = (l2 != null) ? l2.getVal() : 0;
             int sum = carry + x + y;
             carry = sum / 10;
-            curr.next = new ListLinkedNode(sum % 10);
-            curr = curr.next;
+            curr.setNext(new ListNode(sum % 10));
+            curr = curr.getNext();
             if (l1 != null)
-                l1 = l1.next;
+                l1 = l1.getNext();
             if (l2 != null)
-                l2 = l2.next;
+                l2 = l2.getNext();
         }
-        return dummyHead.next;
+        return dummyHead.getNext();
     }
 
     public static void main(String[] args) {
-        addTwoNumbers(new ListLinkedNode(2, new ListLinkedNode(4, new ListLinkedNode(3))),
-                new ListLinkedNode(5, new ListLinkedNode(6, new ListLinkedNode(4))));
+        addTwoNumbers(new ListNode(2, new ListNode(4, new ListNode(3))),
+                new ListNode(5, new ListNode(6, new ListNode(4))));
     }
 }

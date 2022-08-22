@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios de ordenacao">
-      <change afterPath="$PROJECT_DIR$/src/beecrowd/ComparacaoString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LinkedListPalidrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/PalindromeNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/SplitArrayConsecutiveSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/RandomString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/StringAleatoria.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios de LeetCode">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/listnode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursividade/FatorialRecursivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursividade/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/DequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/DequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/LinkedListPalidrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LinkedListPalidrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +55,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\noobcrowd\src\leetcode" />
       <recent name="C:\Users\User\noobcrowd\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -76,13 +72,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DequeTest">
+  <component name="RunManager" selected="Application.FatorialRecursivo">
     <configuration name="DequeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.DequeTest" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.ListNode" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListPalidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LinkedListPalidrome" />
+    <configuration name="FatorialRecursivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursividade.FatorialRecursivo" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="recursividade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LongestCommonPrefix" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursividade.Fibonacci" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="recursividade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution" />
+    <configuration name="MergeTwoSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MergeTwoSortedList" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +130,7 @@
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.ListNode" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DequeTest" />
+        <item itemvalue="Application.FatorialRecursivo" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.MergeTwoSortedList" />
         <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.LinkedListPalidrome" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.DequeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660921576567</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exercicios de LeetCode">
+      <created>1661026797872</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1661026797872</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +355,8 @@
     <MESSAGE value="3 exercicio (PlayingWIthDigits,SumMixedArray, HumanReadableTime(I))" />
     <MESSAGE value="Exercicios plus" />
     <MESSAGE value="Exercicios de ordenacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios de ordenacao" />
+    <MESSAGE value="Exercicios de LeetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios de LeetCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,31 +407,13 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
-          <line>9</line>
-          <properties class="leetcode.ValidParentheses" method="isValid">
+          <url>file://$PROJECT_DIR$/src/recursividade/FatorialRecursivo.java</url>
+          <line>8</line>
+          <properties class="recursividade.FatorialRecursivo" method="fatorial">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
-          <line>25</line>
-          <properties class="leetcode.ValidParentheses" method="isOpeningBracket">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/ValidParentheses.java</url>
-          <line>29</line>
-          <properties class="leetcode.ValidParentheses" method="isMatching">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
