@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Recursividade e alguns exercicios">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ArtitioningIntoMinimumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/BuildArrayFromPermuntation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DefangingIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/FinalValueVariableAfterPerformingOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ManipulacaoVetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/RichestCustomerWealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/SuffleTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursividade/SomaVetor.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios leetCode">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/JewelsStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MinimumSumFourDigitNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/NumberOfGoodPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,22 +67,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SuffleTheArray">
-    <configuration name="ArtitioningIntoMinimumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ArtitioningIntoMinimumNumber" />
-      <module name="beecrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefangingIPAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.DefangingIPAddress" />
+  <component name="RunManager" selected="Application.JewelsStones">
+    <configuration name="JewelsStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.JewelsStones" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -101,6 +83,19 @@
     </configuration>
     <configuration name="ManipulacaoVetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ManipulacaoVetor" />
+      <module name="beecrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSumFourDigitNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MinimumSumFourDigitNumber" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JewelsStones" />
+        <item itemvalue="Application.MinimumSumFourDigitNumber" />
         <item itemvalue="Application.SuffleTheArray" />
         <item itemvalue="Application.ManipulacaoVetor" />
         <item itemvalue="Application.RichestCustomerWealth" />
-        <item itemvalue="Application.DefangingIPAddress" />
-        <item itemvalue="Application.ArtitioningIntoMinimumNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661196785976</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Exercicios leetCode">
+      <created>1661294664509</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1661294664509</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +366,8 @@
     <MESSAGE value="Exercicios de ordenacao" />
     <MESSAGE value="Exercicios de LeetCode" />
     <MESSAGE value="Recursividade e alguns exercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursividade e alguns exercicios" />
+    <MESSAGE value="Exercicios leetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios leetCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,6 +434,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/MinimumSumFourDigitNumber.java</url>
+          <line>3</line>
+          <properties class="leetcode.MinimumSumFourDigitNumber" method="minimumSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/JewelsStones.java</url>
+          <line>3</line>
+          <properties class="leetcode.JewelsStones" method="numJewelsInStones">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
