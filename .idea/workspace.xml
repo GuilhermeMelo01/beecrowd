@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios leetCode">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/JewelsStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/MinimumSumFourDigitNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/NumberOfGoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ParkingSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ArtitioningIntoMinimumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ArtitioningIntoMinimumNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +66,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JewelsStones">
-    <configuration name="JewelsStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.JewelsStones" />
+  <component name="RunManager" selected="Application.ParkingSystem">
+    <configuration name="ArtitioningIntoMinimumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ArtitioningIntoMinimumNumber" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManipulacaoVetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ManipulacaoVetor" />
+    <configuration name="JewelsStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.JewelsStones" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RichestCustomerWealth" />
+    <configuration name="ParkingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ParkingSystem" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParkingSystem" />
+        <item itemvalue="Application.ArtitioningIntoMinimumNumber" />
         <item itemvalue="Application.JewelsStones" />
         <item itemvalue="Application.MinimumSumFourDigitNumber" />
         <item itemvalue="Application.SuffleTheArray" />
-        <item itemvalue="Application.ManipulacaoVetor" />
-        <item itemvalue="Application.RichestCustomerWealth" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661294664509</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Exercicios leetCode">
+      <created>1661377562459</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1661377562459</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,15 +433,6 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/SuffleTheArray.java</url>
-          <line>3</line>
-          <properties class="leetcode.SuffleTheArray" method="shuffle">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/MinimumSumFourDigitNumber.java</url>
           <line>3</line>
           <properties class="leetcode.MinimumSumFourDigitNumber" method="minimumSum">
@@ -444,21 +441,15 @@
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/JewelsStones.java</url>
-          <line>3</line>
-          <properties class="leetcode.JewelsStones" method="numJewelsInStones">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/noobcrowd$WhoLikesIt.ic" NAME="WhoLikesIt Coverage Results" MODIFIED="1659190934422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/noobcrowd$SuffleTheArray.ic" NAME="SuffleTheArray Coverage Results" MODIFIED="1661291669151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/noobcrowd$ArtitioningIntoMinimumNumber.ic" NAME="ArtitioningIntoMinimumNumber Coverage Results" MODIFIED="1661469093104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/beercrowd$LineInArray.ic" NAME="LineInArray Coverage Results" MODIFIED="1655932493156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
