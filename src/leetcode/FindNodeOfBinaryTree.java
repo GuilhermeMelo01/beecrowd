@@ -11,34 +11,25 @@ Note that you are not allowed to change any of the two trees or the target node 
 reference to a node in the cloned tree.
 **/
 
- class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
+public class FindNodeOfBinaryTree {
+    TreeNode temp;
+
+    public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
+        solve(original, target);
+        solve(cloned, temp);
+        return temp;
     }
 
-    public static class FindNodeOfBinaryTree {
-        TreeNode temp;
+    public void solve(TreeNode root, TreeNode target) {
+        if (root == null) return;
 
-        public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
-            solve(original, target);
-            solve(cloned, temp);
-            return temp;
+        if (root.val == target.val) {
+            temp = root;
+            return;
         }
 
-        public void solve(TreeNode root, TreeNode target) {
-            if (root == null) return;
-
-            if (root.val == target.val) {
-                temp = root;
-                return;
-            }
-
-            solve(root.left, target);
-            solve(root.right, target);
-        }
+        solve(root.left, target);
+        solve(root.right, target);
     }
 }

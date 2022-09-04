@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PalindromeNumber {
         public static boolean isPalindrome(int x) {
-            if (x < 0)return false;
+            if (x < 0) return false;
             List<Integer> digitos = new ArrayList<>();
             while (x > 0){
                 digitos.add(x % 10);
@@ -18,6 +18,18 @@ public class PalindromeNumber {
                     }
             }
             return true;
+
+            /*
+            if (x < 0) return false;
+            String str = String.valueOf(x);
+
+            for (int i = 0, j = str.length()-1; i < j; i++, j--) {
+                    if (str.charAt(i) != str.charAt(j)){
+                        return false;
+                    }
+            }
+            return true;
+            */
         }
 
     public static void main(String[] args) {

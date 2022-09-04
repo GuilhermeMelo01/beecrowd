@@ -34,13 +34,6 @@ public class SubrectangleQueries {
     }
 
     public int getValue(int row, int col) {
-        for (int i = 0; i < linha; i++) {
-            for (int j = 0; j < coluna; j++) {
-                if (atual[i][j] == atual[row][col]) {
-                    return atual[i][j];
-                }
-            }
-        }
-        return 0;
+        return atual[row][col];
     }
 }
