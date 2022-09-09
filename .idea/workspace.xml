@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios leetCode">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/AdjacentElementsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/CenturyYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DeepestLeavesSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Palidrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TreeNode.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios CodeSignal">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DecomposeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/NumbersSmaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/QueriesNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TestPalidrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/FindNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/FindNodeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/SubrectangleQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/SubrectangleQueries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdjacentElementsProduct">
+  <component name="RunManager" selected="Application.DecomposeList">
     <configuration name="AdjacentElementsProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AdjacentElementsProduct" />
       <module name="beecrowd" />
@@ -87,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CenturyYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.CenturyYear" />
+    <configuration name="DecomposeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.DecomposeList" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepestLeavesSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.DeepestLeavesSum" />
+    <configuration name="PlaneTextAlphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PlaneTextAlphabet" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Palidrome" />
+    <configuration name="QueriesNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.QueriesNumbers" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.PalindromeNumber" />
+    <configuration name="TestPalidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.TestPalidrome" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecomposeList" />
+        <item itemvalue="Application.QueriesNumbers" />
+        <item itemvalue="Application.TestPalidrome" />
+        <item itemvalue="Application.PlaneTextAlphabet" />
         <item itemvalue="Application.AdjacentElementsProduct" />
-        <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.Palidrome" />
-        <item itemvalue="Application.CenturyYear" />
-        <item itemvalue="Application.DeepestLeavesSum" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661972905486</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Exercicios CodeSignal">
+      <created>1662323935539</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662323935539</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FibonnaciEz" />
     <MESSAGE value="3 exercicios" />
     <MESSAGE value="3 exercicio" />
     <MESSAGE value="3 exercicio (NumeroPerfeito, SubstituicaoVetor1, NumeroPrimo)" />
@@ -401,7 +403,8 @@
     <MESSAGE value="Exercicios de LeetCode" />
     <MESSAGE value="Recursividade e alguns exercicios" />
     <MESSAGE value="Exercicios leetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios leetCode" />
+    <MESSAGE value="Exercicios CodeSignal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios CodeSignal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
