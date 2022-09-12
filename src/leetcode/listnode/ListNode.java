@@ -31,4 +31,13 @@ public class ListNode {
     public void setNext(ListNode next) {
         this.next = next;
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("ListNode{");
+        sb.append("val=").append(val);
+        sb.append(", next=").append(next);
+        sb.append('}');
+        return sb.toString();
+    }
 }
