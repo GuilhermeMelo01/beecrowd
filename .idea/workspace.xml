@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios LeetCode">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/AlphabetLetterPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Merge0ListEncadeada.java" afterDir="false" />
+    <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios LeetCode (ListaEncadeada)">
+      <change afterPath="$PROJECT_DIR$/src/beecrowd/LaboratorioBio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/GoalParseInterpretate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ProductSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/otimizza/AppendOtimiza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/otimizza/DateOtimiza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/otimizza/MaiorOtimiza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/otimizza/NomesOtimiza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/listnode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/listnode/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +72,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge0ListEncadeada">
-    <configuration name="AlphabetLetterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.AlphabetLetterPattern" />
+  <component name="RunManager" selected="Application.GoalParseInterpretate">
+    <configuration name="AppendOtimiza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otimizza.AppendOtimiza" />
+      <module name="beecrowd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="otimizza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoalParseInterpretate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.GoalParseInterpretate" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecomposeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.DecomposeList" />
+    <configuration name="MaiorOtimiza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otimizza.MaiorOtimiza" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="otimizza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge0ListEncadeada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Merge0ListEncadeada" />
+    <configuration name="NomesOtimiza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="otimizza.NomesOtimiza" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="otimizza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueriesNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.QueriesNumbers" />
-      <module name="beecrowd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPalidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.TestPalidrome" />
+    <configuration name="ProductSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ProductSum" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Merge0ListEncadeada" />
-        <item itemvalue="Application.AlphabetLetterPattern" />
-        <item itemvalue="Application.DecomposeList" />
-        <item itemvalue="Application.QueriesNumbers" />
-        <item itemvalue="Application.TestPalidrome" />
+        <item itemvalue="Application.GoalParseInterpretate" />
+        <item itemvalue="Application.ProductSum" />
+        <item itemvalue="Application.AppendOtimiza" />
+        <item itemvalue="Application.MaiorOtimiza" />
+        <item itemvalue="Application.NomesOtimiza" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662751344897</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Exercicios LeetCode (ListaEncadeada)">
+      <created>1663022943519</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1663022943519</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3 exercicio" />
     <MESSAGE value="3 exercicio (NumeroPerfeito, SubstituicaoVetor1, NumeroPrimo)" />
     <MESSAGE value="3 exercicio (PreenchimentoVetor1, SelecaoEmVetor1, TrocaEmVetor1)" />
     <MESSAGE value="1 exercicio (FibonacciEmVetor)" />
@@ -410,7 +420,8 @@
     <MESSAGE value="Exercicios leetCode" />
     <MESSAGE value="Exercicios CodeSignal" />
     <MESSAGE value="Exercicios LeetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios LeetCode" />
+    <MESSAGE value="Exercicios LeetCode (ListaEncadeada)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios LeetCode (ListaEncadeada)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,14 +499,18 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/Merge0ListEncadeada.java</url>
+          <url>file://$PROJECT_DIR$/src/beecrowd/LaboratorioBio.java</url>
           <line>5</line>
-          <properties class="leetcode.Merge0ListEncadeada" method="mergeNodes">
+          <properties class="beecrowd.LaboratorioBio" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="39" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
