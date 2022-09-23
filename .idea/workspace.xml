@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db8a3db-c314-4d11-9ed0-15877803cec7" name="Changes" comment="Exercicios LeetCode">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DecodeXO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ShuffledString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TargetArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LinkedListBinaryToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LinkedListMaxTwinSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/SmallEvenMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/SrictlyPalindromicNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TinyURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TinyURLMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/listnode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/listnode/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +72,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShuffledString">
-    <configuration name="DecodeXO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.DecodeXO" />
+  <component name="RunManager" selected="Application.LinkedListMaxTwinSum">
+    <configuration name="LinkedListBinaryToDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LinkedListBinaryToDecimal" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalParseInterpretate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.GoalParseInterpretate" />
+    <configuration name="LinkedListMaxTwinSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LinkedListMaxTwinSum" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ProductSum" />
+    <configuration name="SrictlyPalindromicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.SrictlyPalindromicNumber" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuffledString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ShuffledString" />
+    <configuration name="TinyURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.TinyURL" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.TargetArray" />
+    <configuration name="TinyURLMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.TinyURLMap" />
       <module name="beecrowd" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShuffledString" />
-        <item itemvalue="Application.TargetArray" />
-        <item itemvalue="Application.DecodeXO" />
-        <item itemvalue="Application.GoalParseInterpretate" />
-        <item itemvalue="Application.ProductSum" />
+        <item itemvalue="Application.LinkedListMaxTwinSum" />
+        <item itemvalue="Application.LinkedListBinaryToDecimal" />
+        <item itemvalue="Application.TinyURLMap" />
+        <item itemvalue="Application.TinyURL" />
+        <item itemvalue="Application.SrictlyPalindromicNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663271393063</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Exercicios LeetCode">
+      <created>1663628027505</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1663628027505</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,6 +520,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/LinkedListBinaryToDecimal.java</url>
+          <line>8</line>
+          <properties class="leetcode.LinkedListBinaryToDecimal" method="getDecimalValue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />

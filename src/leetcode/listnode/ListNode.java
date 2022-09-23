@@ -1,8 +1,8 @@
 package leetcode.listnode;
 
 public class ListNode {
-        int val;
-        ListNode next;
+        public int val; //má pratica, so para facilitar
+        public ListNode next; //má pratica, so para facilitar
 
         public ListNode() {
         }
