@@ -13,9 +13,9 @@ public class BalancoDeParentes1Pilha {
         String v = "";
         for(int i=0; i < valor.length(); i++){
             if(valor.charAt(i) == '('){
-                s.add(valor.charAt(i));
+                s.push(valor.charAt(i));
             }
-            if (valor.charAt(i)  == ')' && s.isEmpty()){
+            if (valor.charAt(i)  == ')' && s.empty()){
                 v = "incorrect";
                 break;
             }else if(valor.charAt(i) == ')'){
@@ -23,7 +23,7 @@ public class BalancoDeParentes1Pilha {
             }
         }
 
-        if(v.equals("incorrect") || !s.isEmpty()){
+        if(v.equals("incorrect") || !s.empty()){
             System.out.println("incorrect");
         }else{
             System.out.println("correct");
