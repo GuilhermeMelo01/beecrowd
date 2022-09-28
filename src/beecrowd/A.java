@@ -10,7 +10,7 @@ public class A {
          
          if (Arrays.stream(ints).anyMatch(i -> i == k)){
              System.out.println(true);
-             return true;
+             return true;   
          }
          System.out.println(false);
          return false;
