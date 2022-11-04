@@ -17,8 +17,13 @@ public class A {
      }
 
     public static void main(String[] args) {
-        int [] ints = {-9, 14, 37, 102};
-        exists(ints, 14);
+//        int [] ints = {-9, 14, 37, 102};
+//        exists(ints, 14);
+        int x = 1;
+        for (int i = 1; i <= 128; i += i) {
+            x += x;
+        }
+        System.out.println(x);
     }
 
 }
