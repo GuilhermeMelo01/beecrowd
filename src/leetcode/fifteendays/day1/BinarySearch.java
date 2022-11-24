@@ -1,4 +1,4 @@
-package leetcode.fifteendays;
+package leetcode.fifteendays.day1;
 
 public class BinarySearch {
     public int search(int[] nums, int target) {

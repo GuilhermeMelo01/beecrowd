@@ -1,4 +1,4 @@
-package leetcode.fifteendays;
+package leetcode.fifteendays.day1;
 
 public class VersionControl {
     /* The isBadVersion API is defined in the parent class VersionControl.
