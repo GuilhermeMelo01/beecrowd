@@ -25,7 +25,6 @@ public class Merge0ListEncadeada {
     /*   rabo.setNext(list1);
                 rabo = list1;
                 list1 = list1.getNext();*/
-
     public static void main(String[] args) {
         ListNode listNode = mergeNodes(new ListNode(0, new ListNode(3, new ListNode(1, new ListNode(0,
                 new ListNode(4, new ListNode(5, new ListNode(0))))))));

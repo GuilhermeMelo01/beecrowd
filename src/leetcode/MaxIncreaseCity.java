@@ -1,21 +1,21 @@
 package leetcode;
 
 public class MaxIncreaseCity {
-    public static int maxIncreaseKeepingSkyline(int[][] grid) {
-        int N = grid.length;
-        int[] rowMaxes = new int[N];
-        int[] colMaxes = new int[N];
+    public static int maxIncreaseKeepingSkyline(int[][] matriz) {
+        int tamanho = matriz.length;
+        int[] linhaMax = new int[tamanho];
+        int[] colunaMax = new int[tamanho];
 
-        for (int r = 0; r < N; ++r)
-            for (int c = 0; c < N; ++c) {
-                rowMaxes[r] = Math.max(rowMaxes[r], grid[r][c]);
-                colMaxes[c] = Math.max(colMaxes[c], grid[r][c]);
+        for (int l = 0; l < tamanho; ++l)
+            for (int c = 0; c < tamanho; ++c) {
+                linhaMax[l] = Math.max(linhaMax[l], matriz[l][c]);
+                colunaMax[c] = Math.max(colunaMax[c], matriz[l][c]);
             }
 
         int ans = 0;
-        for (int r = 0; r < N; ++r)
-            for (int c = 0; c < N; ++c)
-                ans += Math.min(rowMaxes[r], colMaxes[c]) - grid[r][c];
+        for (int r = 0; r < tamanho; ++r)
+            for (int c = 0; c < tamanho; ++c)
+                ans += Math.min(linhaMax[r], colunaMax[c]) - matriz[r][c];
 
         return ans;
     }
